@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uno</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <span>Selecciona una persona </span><br />
+    <select name="Personas" id="personas" onchange="muestraPersona()">
+      <option value="0" selected>Selecciona</option>
+      <option value="1">Persona 1</option>
+      <option value="2">Persona 2</option>
+      <option value="3">Persona 3</option>
+      <option value="4">Persona 4</option>
+      <option value="5">Persona 5</option>
+      <option value="6">Persona 6</option>
+      <option value="7">Persona 7</option>
+      <option value="8">Persona 8</option>
+      <option value="9">Persona 9</option>
+      <option value="10">Persona 10</option>
+    </select>
+    <br /><br />
+    <hr />
+
+    <!-- /////////// Imprimir en pantalla la persona seleccionada -->
+    <h2>Datos de la persona seleccionada:</h2>
+    <p id="div1"></p>
+    <!-- /////////// -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+body {
+  background-color: #222222;
+  color: white;
+}
+#seleccion {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(236, 75, 75);
+}
